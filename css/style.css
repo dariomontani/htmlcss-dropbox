@@ -9,13 +9,12 @@ html{
 }
 
 body{
-    background-color:turquoise;
+    background-color:red;
 }
 /* header */
 .container-header{
     width: 100%;
     background-color: white;
-    padding-bottom: 1.5em;
     position: fixed;
 }
 
@@ -73,6 +72,14 @@ body{
     margin-top: 1.5em;
 }
 
+.btn-blue{
+    color: white;
+    padding: 5px 20px; 
+    background-color: blue;
+    font-size: small;
+    text-decoration: none;
+}
+
 .elements-header-right .btn-blue{
     color: white;
     padding: 5px 20px;
@@ -81,13 +88,80 @@ body{
     font-size: small;
 }
 
+.btn-blue:hover{
+    opacity: 50%;
+}
+
 .elements-header-right{
     margin-left: 2em;
 }
 
+.container-header li a{
+    padding-bottom: 2em;
+}
 
+.container-header li:hover a{
+    border-bottom: 2px solid black;
+}
+/* /header */
+/* main */
+/* section jumbotron */
+.jumbotron{
+    width: 100%;
+    background-color: #B4D0E7;
+    padding-top: 10em;
+    padding-bottom: 5em;
+}
 
+.box-jumbotron{
+    width: 80%;
+    margin: 0 auto;
+}
 
+.content-jumbotron{
+    margin-top: 2em;
+    position: relative;
+}
+
+.jumbotron h1{
+    font-size: 4em;
+}
+
+.img-jumbotron img{
+    width: 50em;
+}
+
+.text-jumbotron{
+    width: 30%;
+}
+
+.text-jumbotron,
+.img-jumbotron{
+    float: left;
+}
+
+.text-jumbotron p:first-child{
+    margin-bottom: 1.5em;
+}
+
+.text-jumbotron p:last-of-type{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.text-jumbotron a:last-of-type{
+    color: black;
+    font-size: 2.5em;
+}
+
+.img-jumbotron{
+    max-width: 60%;
+    position: absolute;
+    right: 5em;
+}
+
+/* /section jumbotron */
+/* /main */
 .clearfix{
     content: '';
     display: table;
