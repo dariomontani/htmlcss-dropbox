@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    font-size: 100%;
+}
+
+body{
+    background-color:turquoise;
+}
+/* header */
+.container-header{
+    width: 100%;
+    background-color: white;
+    padding-bottom: 1.5em;
+    position: fixed;
+}
+
+.nav-left{
+    width: 60%;
+}
+
+.nav-right{
+    width: 40%;
+}
+
+.nav-left,
+.nav-right{
+    float: left;
+}
+
+.elements-header-left img{
+    vertical-align: middle;
+}
+
+.elements-header-left ul,
+.elements-header-right ul{
+    list-style-type: none;
+}
+
+.elements-header-left a,
+.elements-header-right a{
+    text-decoration: none;
+    color: black;
+    margin-right: 2.5em;
+}
+
+.elements-header-left a,
+.elements-header-left li{
+    float: left;
+}
+
+.elements-header-left li,
+.elements-header-right li,
+.elements-header-right a{
+    font-weight: bold;
+}
+
+.elements-header-left{
+    margin-left: 1em;
+    margin-top: 1.5em;
+}
+
+.elements-header-right a,
+.elements-header-right li{
+    float: left;
+}
+
+.elements-header-right{
+    margin-top: 1.5em;
+}
+
+.elements-header-right .btn-blue{
+    color: white;
+    padding: 5px 20px;
+    margin-right: 0;
+    background-color: blue;
+    font-size: small;
+}
+
+.elements-header-right{
+    margin-left: 2em;
+}
+
+
+
+
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
