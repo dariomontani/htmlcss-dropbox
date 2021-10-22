@@ -9,13 +9,14 @@ html{
 }
 
 body{
-    background-color:red;
+    /* background-color:red; */
 }
 /* header */
 .container-header{
     width: 100%;
     background-color: white;
     position: fixed;
+    z-index: 999;
 }
 
 .nav-left{
@@ -159,8 +160,94 @@ body{
     position: absolute;
     right: 5em;
 }
-
 /* /section jumbotron */
+
+/* centre */
+/* section tariffario */
+.centre{
+    width: 75%;
+    margin: 13em auto;
+}
+
+.tariffario h1{
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+.tariffario form input:last-of-type{
+    margin-left: 1em;
+}
+
+.professional,
+.standard,
+.advanced{
+    width: calc(100% / 3 - 2.67em);
+    height: 800px;
+    border: 1px solid lightgray;
+    float: left;
+}
+
+.standard{
+    margin: 0 4em;
+}
+
+.offers-3{
+    margin-top: 2em;
+    width: 100%;
+}
+/* professional */
+.icon-offers{
+    width: 100%;
+    text-align: center;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid lightgray;
+}
+
+.gray{
+    color: gray;
+}
+
+.text-offers{
+    padding: 1em;
+    line-height: 3em;
+}
+
+.text-offers h2{
+    margin-bottom: 1em;
+}
+
+.text-offers p:first-of-type{
+    line-height: 0;
+}
+
+.list-offers{
+    padding: 1em;
+}
+
+.list-offers li{
+    list-style-type: none;
+    line-height: 2.5em;
+}
+
+.list-offers li i{
+    color:blue;
+}
+
+.list-offers h4{
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+
+.professional p,
+.professional span{
+    font-size: 0.9em;
+}
+/* /professional */
+/* /section tariffario */
+/* /centre */
+
 /* /main */
 .clearfix{
     content: '';
