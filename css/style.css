@@ -296,7 +296,52 @@ body{
     line-height: 3em;
 }
 /* /enterprise */
+/* partner */
+.partner{
+    margin-top: 8em;
+}
 
+.img-partner img{
+    width: 35em;
+}
+
+.btn-white{
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+}
+
+.btn-white:hover{
+    color: blue;
+    border: 1px solid blue;
+}
+
+.img-partner{
+    width: 60%;
+    float: left;
+}
+.text-partner{
+    width: 40%;
+    float: left;
+}
+
+.text-partner h2{
+    margin-bottom: 1em;
+}
+
+.text-partner p{
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+.text-partner div{
+    margin-top: 2em;
+}
+/* /partener */
+/* features */
+
+/* /features */
 /* /centre */
 
 /* /main */
