@@ -79,6 +79,7 @@ body{
     background-color: blue;
     font-size: small;
     text-decoration: none;
+    text-align: center;
 }
 
 .elements-header-right .btn-blue{
@@ -182,9 +183,10 @@ body{
 .standard,
 .advanced{
     width: calc(100% / 3 - 2.67em);
-    height: 800px;
     border: 1px solid lightgray;
     float: left;
+    font-size: 0.9em;
+    padding-bottom: 10em;
 }
 
 .standard{
@@ -195,7 +197,6 @@ body{
     margin-top: 2em;
     width: 100%;
 }
-/* professional */
 .icon-offers{
     width: 100%;
     text-align: center;
@@ -210,7 +211,7 @@ body{
 
 .text-offers{
     padding: 1em;
-    line-height: 3em;
+    line-height: 3.5em;
 }
 
 .text-offers h2{
@@ -239,13 +240,63 @@ body{
     margin-bottom: 1em;
 }
 
-
-.professional p,
-.professional span{
-    font-size: 0.9em;
+.button-30gg{
+    width: 100%;
+    text-align: center;
 }
-/* /professional */
+
+.offers-3 hr{
+    margin-left: 1em;
+    margin-right: 17em;
+}
+
+.text-offers .btn-blue{
+    padding: 0.7em 4em;
+}
+
 /* /section tariffario */
+/* enterprise */
+.enterprise{
+    width: 100%;
+    margin-top: 3em;
+    padding-bottom: 1em;
+    border: 1px solid lightgray;
+}
+
+.icon-enterprise{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.title-enterprise{
+    width: 50%;
+    float: left;
+}
+
+.button-enterprise{
+    float: right;
+}
+
+.button-enterprise .btn-blue{
+    padding: 0.6em 6em;
+}
+
+.float-enterprise{
+    width: 100%;
+    margin-top: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.text-enterprise{
+    font-size: 0.9em;
+    margin-left: 1.5em;
+    line-height: 3em;
+}
+/* /enterprise */
+
 /* /centre */
 
 /* /main */
