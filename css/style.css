@@ -518,6 +518,7 @@ html{
 footer{
     background-color: black;
     margin-top: 8em;
+    padding-bottom: 5em;
 }
 
 .container-footer{
@@ -544,10 +545,11 @@ footer{
 footer hr{
     margin-left: 11em;
     margin-right: 70em;
+    margin-bottom: 3em;
 }
 .form{
     width: 75%;
-    margin: 3em auto;
+    margin: 0 auto;
 }
 .form i{
     color: gray;
