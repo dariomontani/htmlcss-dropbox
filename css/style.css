@@ -104,7 +104,7 @@ html{
     font-size: 4em;
 }
 .img-jumbotron img{
-    width: 50em;
+    width: 120%;
 }
 .text-jumbotron{
     width: 30%;
@@ -293,7 +293,7 @@ html{
 }
 
 .img-partner img{
-    width: 35em;
+    width: 90%;
 }
 
 .btn-white{
@@ -316,6 +316,7 @@ html{
 .text-partner{
     width: 40%;
     float: left;
+    margin-top: 2em;
 }
 
 .text-partner h2{
