@@ -516,7 +516,7 @@ footer{
 }
 
 .container-footer{
-    padding-left: 5em;
+    padding-left: 11em;
     margin: 0 auto;
 }
 
@@ -535,6 +535,13 @@ footer{
     list-style-type: none;
     font-size: small;
     line-height: 2em;
+}
+.link-footer a{
+    text-decoration: none;
+    color: white;
+}
+.link-footer a:hover{
+    text-decoration: underline;
 }
 footer hr{
     margin-left: 11em;
