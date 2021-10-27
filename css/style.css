@@ -14,61 +14,49 @@ html{
     position: fixed;
     z-index: 999;
 }
-
 .nav-left{
     width: 60%;
 }
-
 .nav-right{
     width: 40%;
 }
-
 .nav-left,
 .nav-right{
     float: left;
 }
-
 .elements-header-left img{
     vertical-align: middle;
 }
-
 .elements-header-left ul,
 .elements-header-right ul{
     list-style-type: none;
 }
-
 .elements-header-left a,
 .elements-header-right a{
     text-decoration: none;
     color: black;
     margin-right: 2.5em;
 }
-
 .elements-header-left a,
 .elements-header-left li{
     float: left;
 }
-
 .elements-header-left li,
 .elements-header-right li,
 .elements-header-right a{
     font-weight: bold;
 }
-
 .elements-header-left{
     margin-left: 1em;
     margin-top: 1.5em;
 }
-
 .elements-header-right a,
 .elements-header-right li{
     float: left;
 }
-
 .elements-header-right{
     margin-top: 1.5em;
 }
-
 .btn-blue{
     color: white;
     padding: 5px 20px; 
@@ -77,7 +65,6 @@ html{
     text-decoration: none;
     text-align: center;
 }
-
 .elements-header-right .btn-blue{
     color: white;
     padding: 5px 20px;
@@ -85,19 +72,15 @@ html{
     background-color: blue;
     font-size: small;
 }
-
 .btn-blue:hover{
     opacity: 50%;
 }
-
 .elements-header-right{
     margin-left: 2em;
 }
-
 .container-header li a{
     padding-bottom: 2em;
 }
-
 .container-header li:hover a{
     border-bottom: 2px solid black;
 }
@@ -105,60 +88,48 @@ html{
 /* main */
 /* section jumbotron */
 .jumbotron{
-    width: 100%;
     background-color: #B4D0E7;
     padding-top: 10em;
     padding-bottom: 5em;
 }
-
 .box-jumbotron{
     width: 80%;
     margin: 0 auto;
 }
-
 .content-jumbotron{
     margin-top: 2em;
     position: relative;
 }
-
 .jumbotron h1{
     font-size: 4em;
 }
-
 .img-jumbotron img{
     width: 50em;
 }
-
 .text-jumbotron{
     width: 30%;
 }
-
 .text-jumbotron,
 .img-jumbotron{
     float: left;
 }
-
 .text-jumbotron p:first-child{
     margin-bottom: 1.5em;
 }
-
 .text-jumbotron p:last-of-type{
     margin-top: 1em;
     margin-bottom: 2em;
 }
-
 .text-jumbotron a:last-of-type{
     color: black;
     font-size: 2.5em;
 }
-
 .img-jumbotron{
     max-width: 60%;
     position: absolute;
     right: 5em;
 }
 /* /section jumbotron */
-
 /* centre */
 /* section tariffario */
 .centre{
@@ -179,6 +150,7 @@ html{
 .professional,
 .standard,
 .advanced{
+    min-height: 70em;
     width: calc(100% / 3 - 2.67em);
     border: 1px solid lightgray;
     float: left;
@@ -192,7 +164,6 @@ html{
 
 .offers-3{
     margin-top: 2em;
-    width: 100%;
 }
 .icon-offers{
     width: 100%;
@@ -223,9 +194,29 @@ html{
     padding: 1em;
 }
 
+.plan{
+    line-height: 1.5em;
+}
+.plan li{
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+.plan li:first-child{
+    margin-top: 2em;
+}
+.plan li div{
+    float: left;
+}
+.plan .li-plan .icon{
+    width: 10%;
+}
+.plan .text-plan{
+    width: 89%;
+}
+
 .list-offers li{
     list-style-type: none;
-    line-height: 2.5em;
+    line-height: 2em;
 }
 
 .list-offers li i{
@@ -251,6 +242,9 @@ html{
     padding: 0.7em 4em;
 }
 
+.link-blue{
+    color: blue;
+}
 /* /section tariffario */
 /* enterprise */
 .enterprise{
@@ -556,7 +550,7 @@ footer hr{
     float: left;
 }
 /* /footer */
-.clearfix{
+.clearfix::after{
     content: '';
     display: table;
     clear: both;
