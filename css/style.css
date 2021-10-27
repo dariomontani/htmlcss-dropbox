@@ -64,6 +64,7 @@ html{
     font-size: small;
     text-decoration: none;
     text-align: center;
+    display: block;
 }
 .elements-header-right .btn-blue{
     color: white;
@@ -104,7 +105,8 @@ html{
     font-size: 4em;
 }
 .img-jumbotron img{
-    width: 120%;
+    width: 50em;
+    max-width: 120%;
 }
 .text-jumbotron{
     width: 30%;
@@ -239,7 +241,7 @@ html{
 }
 
 .text-offers .btn-blue{
-    padding: 0.7em 4em;
+    line-height: 2em;
 }
 
 .link-blue{
